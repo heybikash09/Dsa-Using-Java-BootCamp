@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b63a296f-0a15-41d8-8d1b-35582cc60482" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Stack_queue/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_queue/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_queue/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_queue/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_queue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_queue/Stack_queue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_queue/src/customStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_queue/src/queueImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_queue/src/stackImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListt/src/palindromicList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListt/src/palindromicList.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2lB8z1ZMxv0OqpZbuAPNNtzrb3S" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Java_Dsa_newPractice/Stack_queue"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b63a296f-0a15-41d8-8d1b-35582cc60482" name="Changes" comment="" />
+      <created>1724642368170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724642368170</updated>
+    </task>
+    <servers />
+  </component>
+</project>
