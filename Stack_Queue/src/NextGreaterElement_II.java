@@ -1,5 +1,5 @@
 import java.util.*;
-public class NextGreaterElement_I{
+public class NextGreaterElement_II {
     static int[] nextGreaterElement(int[] nums1, int[] nums2) {
         HashMap<Integer, Integer> con = new HashMap<>();
         Stack<Integer> res = new Stack<>();

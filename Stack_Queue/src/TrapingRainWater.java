@@ -1,4 +1,4 @@
-public class trapingRainWater {
+public class TrapingRainWater {
     static int trap(int[] height) {
         int l=0;
         int r=height.length-1;
