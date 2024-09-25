@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b63a296f-0a15-41d8-8d1b-35582cc60482" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Stack_queue/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack_queue/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack_queue/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack_queue/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack_queue/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack_queue/Stack_queue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack_queue/src/customStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack_queue/src/queueImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack_queue/src/stackImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedListt/src/palindromicList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListt/src/palindromicList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/Stack_Queue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/src/AsteroidCollision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/src/FLowerPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/src/NextGreaterElement_I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/src/NextGreaterElement_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/src/NumberOfNextGreatestElemement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/src/TrapingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/src/sumOfSubArrayRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack_Queue/src/sumSubarrayMinSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +24,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Stack_Queue" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2lB8z1ZMxv0OqpZbuAPNNtzrb3S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -35,8 +41,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Java_Dsa_newPractice/Stack_queue"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/Java_Dsa_newPractice",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

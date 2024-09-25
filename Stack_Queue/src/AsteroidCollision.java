@@ -10,11 +10,9 @@ public class AsteroidCollision {
                 while (!stack.isEmpty() && stack.peek() > 0 && stack.peek() < -a) {
                     stack.pop();
                 }
-
                 if (stack.isEmpty() || stack.peek() < 0)  {
                     stack.push(a);
                 }
-
                 if (stack.peek() == -a) {
                     stack.pop();
                 }
