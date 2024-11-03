@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class MissingRepeating {
     static int[] findTwoElement(int arr[], int n) {
@@ -30,5 +31,6 @@ public class MissingRepeating {
         {
             System.out.print(x+"  ");
         }
+
     }
 }

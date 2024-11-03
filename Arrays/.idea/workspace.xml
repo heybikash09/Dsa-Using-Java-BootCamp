@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf22491d-552b-4749-a33c-dade0d2532c2" name="Changes" comment="" />
+    <list default="true" id="cf22491d-552b-4749-a33c-dade0d2532c2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Power.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Power.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/tempCodeRunnerFile.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,26 +47,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Java_Dsa_newPractice"
+    "last_opened_file_path": "E:/Dsa-Using-Java-BootCamp/String/src"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.searchInsertionPos">
+  <component name="RunManager" selected="Application.spiralMatrix">
+    <configuration name="FindSubarrayWithLargestSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindSubarrayWithLargestSum" />
+      <module name="Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumScorefromSubarrayMinimums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumScorefromSubarrayMinimums" />
+      <module name="Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MissingRepeating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MissingRepeating" />
-      <module name="Arrays" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sum3" />
-      <module name="Arrays" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="countInversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="countInversion" />
       <module name="Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sumMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sumMiddle" />
+    <configuration name="spiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spiralMatrix" />
       <module name="Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.searchInsertionPos" />
-        <item itemvalue="Application.Sum3" />
-        <item itemvalue="Application.countInversion" />
-        <item itemvalue="Application.sumMiddle" />
+        <item itemvalue="Application.spiralMatrix" />
         <item itemvalue="Application.MissingRepeating" />
+        <item itemvalue="Application.searchInsertionPos" />
+        <item itemvalue="Application.MaximumScorefromSubarrayMinimums" />
+        <item itemvalue="Application.FindSubarrayWithLargestSum" />
       </list>
     </recent_temporary>
   </component>
@@ -178,9 +183,9 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/demo.java</url>
+          <url>file://$PROJECT_DIR$/src/LenghtLongestSubString.java</url>
           <line>53</line>
-          <properties class="demo" method="main">
+          <properties class="LenghtLongestSubString" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -188,7 +193,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/MissingRepeating.java</url>
-          <line>25</line>
+          <line>26</line>
           <properties class="MissingRepeating" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -208,11 +213,6 @@
           <url>file://$PROJECT_DIR$/src/MaxConsucative.java</url>
           <line>19</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LongestSubArrayWithSumK.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LongestSubarrWithZero.java</url>

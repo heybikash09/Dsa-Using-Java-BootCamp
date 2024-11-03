@@ -7,12 +7,12 @@ public class LongestSubArrayWithSumK {
         int length = 0;
         int sum = 0;
         hm.put(0,-1);
-        for(int i=0;i<N;i++){
+        for(int i=0;i<N;i++) {
             sum = sum + A[i];
-            if(!hm.containsKey(sum)){
-                hm.put(sum,i);
+            if (!hm.containsKey(sum)) {
+                hm.put(sum, i);
             }
-            if(hm.containsKey(sum-K)) {
+            if (hm.containsKey(sum - K)) {
                 if (i - hm.get(sum - K) > length) {
                     length = i - hm.get(sum - K);
                 }
@@ -21,9 +21,9 @@ public class LongestSubArrayWithSumK {
         return length;
     }
     public static void main(String[] args) {
-        int arr[]={-13, 0, 6, 9, 16};
+        int arr[]={-14, 10, -15, 17, 4 ,18, 3 ,-18, -7, -4, -8, 8 ,-8};
         int n=arr.length;
-        int k=15;
+        int k=12;
         System.out.println("The Longest sub Array is "+FindLongSubArr(arr,n,k));
     }
 }

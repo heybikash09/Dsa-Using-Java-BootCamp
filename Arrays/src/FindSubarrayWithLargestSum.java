@@ -29,7 +29,7 @@ public class FindSubarrayWithLargestSum {
         return max;
     }
     public static void main(String[] args) {
-        int arr[]={5,4,-1,7,8};
+        int arr[]={-2,-1,3,4};
         System.out.println("The largest sum of subarray "+maxSubArray(arr));
     }
 }

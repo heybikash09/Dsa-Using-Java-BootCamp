@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class searchInsertionPos {
     static int searchInsert(int[] nums, int target) {
         int l= 0, r = nums.length - 1;
@@ -21,6 +23,10 @@ public class searchInsertionPos {
     }
     public static void main(String[] args) {
             int arr[]={1,3,5,6};
-        System.out.println("The position is "+searchInsert(arr,2));
+        //System.out.println("The position is "+searchInsert(arr,2));
+        ArrayList<Integer> res=new ArrayList<>();
+        res.add(0,78);
+        res.add(0,67);
+        System.out.println(res);
     }
 }

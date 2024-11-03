@@ -1,58 +1,42 @@
-import java.util.*;
-public class demo {
-    static int lengthOfLongestSubstring(String s)
-    {
-        //Brute Force
-//        char str[]=s.toCharArray();
-//        int n=str.length;
-//        HashSet<Character> res=new HashSet<>();
-//        int count=0;
-//        int len=0;
-//        int k=0;
-//        int i=0;
-//        while(i<n)
-//        {
-//            if(!res.contains(str[i]))
-//            {
-//                res.add(str[i]);
-//                count++;
-//                System.out.println(count);
-//                i++;
-//            }
-//            else{
-//                i=k+1;
-//                res.clear();
-//                count=0;
-//                k++;
-//            }
-//            len=Math.max(len,count);
-//        }
-//        return len;
-        char str[]=s.toCharArray();
-        int n=str.length;
-        HashSet<Character> res=new HashSet<>();
-        int len=0;
-        int i=0;
-        int j=0;
-        while(i<n)
+public class Demo {
+    static void merge(int[] nums1, int m, int[] nums2, int n) {
+        if(n==0)
+            return;
+        int i=0,j=0,k=0;
+        int res[]=new int[m+n];
+        while(i<n && j<n)
         {
-            if(!res.contains(str[i]))
+            if(nums1[i]<=nums2[j])
             {
-                res.add(str[i]);
-                len=j-i+1;
-                j++;
+                res[k++]=nums1[i++];
+            System.out.println((k-1)+"  "+res[k-1]);
             }
-            if(j==n-1)
-                break;
-            else{
-                i++;
-                j++;
+            else
+            {
+                res[k++]=nums2[j++];
+                System.out.println((k-1)+"  "+res[k-1]);
             }
         }
-        return len;
+        while(i<n)
+        {
+            res[k++]=nums1[i++];
+            System.out.println((k-1)+"  "+res[k-1]);
+        }
+        while(j<n)
+        {
+            res[k++]=nums2[j++];
+            System.out.println((k-1)+"  "+res[k-1]);
+        }
+        i=0;
+        k=0;
+        while(i<m+n)
+        {
+            nums1[i++]=res[k++];
+        }
     }
     public static void main(String[] args) {
-        String str="ab";
-        System.out.println("The non repeating sub array length is "+lengthOfLongestSubstring(str));
+        int arr[]={1,2,3,0,0,0};
+        int arr2[]={2,5,6};
+        merge(arr,3,arr2,3);
     }
-    }
+}
